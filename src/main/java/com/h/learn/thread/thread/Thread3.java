@@ -2,7 +2,7 @@ package com.h.learn.thread.thread;
 
 /**
  * @ClassName Thread3
- * @Description TODO
+ * @Description 测试线程的currentThread getId isAlive
  * @Author Admin
  * @Date 2020/7/12
  * @Version 1.0
