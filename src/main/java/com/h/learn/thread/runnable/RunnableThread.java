@@ -7,7 +7,7 @@ package com.h.learn.thread.runnable;
  * @Date 2020/7/12
  * @Version 1.0
  */
-public class RunnableThread1 implements Runnable {
+public class RunnableThread implements Runnable {
     public void run() {
         for (int i = 0; i < 10; i++) {
             try {
@@ -20,7 +20,7 @@ public class RunnableThread1 implements Runnable {
     }
 
     public static void main(String[] args) {
-        Runnable runnable = new RunnableThread1();
+        Runnable runnable = new RunnableThread();
         Thread thread = new Thread(runnable);
         thread.start();
         for (int i = 0; i < 10; i++) {
